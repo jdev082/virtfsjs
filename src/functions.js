@@ -31,6 +31,10 @@ var functions = {
             console.log("ERR: A virtual fs table has not been created yet.")
             return
         }
+        if (folderPath, fileName = undefined) {
+            console.log("ERR: Missing arguments.")
+            return
+        }
         return localStorage.getItem(folderPath + fileName);
     }
 }
