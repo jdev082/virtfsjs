@@ -1,0 +1,22 @@
+{
+  "name": "virtfsjs",
+  "version": "0.0.0",
+  "description": "virtfsjs",
+  "main": "none",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenDev/virtfsjs.git"
+  },
+  "scripts": {
+    "fix": "eslint src/* --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaydenDev/virtfsjs/issues"
+  },
+  "homepage": "https://github.com/JaydenDev/virtfsjs#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}

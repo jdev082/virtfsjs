@@ -1,6 +1,7 @@
-// main
-import { functions as functions } from "functions.js" ;
+import { functions as functions } from "./functions.js";
 
-export var virtfs = [
-    virtfs.functions = functions
-]
+var virtfs = {
+    functions: () => functions
+};
+
+export default virtfs;

@@ -1,5 +1,3 @@
-// functions
-
 var functions = {
     init: () => {
         if (localStorage.getItem('initCheck') != undefined ) {
